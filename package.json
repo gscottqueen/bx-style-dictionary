@@ -1,16 +1,23 @@
 {
   "name": "style-dictionary-example-complete",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
-  "main": "build.js",
+  "main": "build/index.js",
+  "files": [
+    "assets",
+    "build",
+    "properties"
+  ],
   "scripts": {
     "build": "node_modules/.bin/style-dictionary build",
+    "watch": "npm run build && chokidar  \"properties/**/*.json\" -c \"npm run build\"",
     "clean": "rm -rf build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "G. Scott Queen | Bixal",
   "license": "Apache-2.0",
   "devDependencies": {
-    "style-dictionary": "2.9.0"
+    "style-dictionary": "2.9.0",
+    "chokidar-cli": "^1.2.0"
   }
 }

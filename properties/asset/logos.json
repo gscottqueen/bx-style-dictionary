@@ -1,0 +1,7 @@
+{
+  "asset": {
+    "logo": {
+      "black": { "value": "assets/svg/logo.svg" }
+    }
+  }
+}

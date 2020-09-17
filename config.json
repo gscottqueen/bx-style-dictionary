@@ -10,7 +10,7 @@
       "files": [
         {
           "format": "css/variables",
-          "destination": "variables.css"
+          "destination": "bx_variables.css"
         }
       ]
     },
@@ -19,19 +19,35 @@
       "prefix": "bx",
       "buildPath": "build/scss/",
       "files": [{
-        "destination": "_variables.scss",
+        "destination": "_bx_variables.scss",
         "format": "scss/variables"
-      }],
-      "actions": ["copy_assets"]
+      }]
     },
     "js": {
       "transformGroup": "js",
       "prefix": "bx",
       "buildPath": "build/js/",
       "files": [{
-        "destination": "variables.js",
+        "destination": "bx_variables.js",
+        "format": "javascript/module"
+      },
+      {
+        "destination": "bx_es_variables.js",
         "format": "javascript/es6"
       }]
+    },
+    "json/asset": {
+      "transforms": ["attribute/cti", "name/cti/camel", "asset/base64"],
+      "buildPath": "build/assets/",
+      "files": [{
+        "destination": "assets.json",
+        "format": "json/asset"
+      }]
+    },
+    "assets/copy": {
+      "transformGroup": "assets",
+      "buildPath": "build/",
+      "actions": ["copy_assets"]
     }
   }
 }
