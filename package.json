@@ -1,8 +1,8 @@
 {
-  "name": "bx-tokens",
+  "name": "bx-style-dictionary",
   "version": "0.1.0",
-  "description": "## What's Included",
-  "main": "build/index.js",
+  "description": "Bixal Brand Token Generator",
+  "main": "",
   "files": [
     "assets",
     "build",
@@ -15,7 +15,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "G. Scott Queen | Bixal",
-  "license": "Apache-2.0",
+  "license": "ISC",
   "devDependencies": {
     "style-dictionary": "2.9.0",
     "chokidar-cli": "^1.2.0"
@@ -23,15 +23,14 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gscottqueen/bx-tokens.git"
+    "url": "git+https://github.com/gscottqueen/bx-style-dictionary.git"
   },
   "keywords": [
     "design",
-    "tokens",
     "dictionary"
   ],
   "bugs": {
-    "url": "https://github.com/gscottqueen/bx-tokens/issues"
+    "url": "https://github.com/gscottqueen/bx-style-dictionary/issues"
   },
-  "homepage": "https://github.com/gscottqueen/bx-tokens#readme"
+  "homepage": "https://github.com/gscottqueen/bx-style-dictionary#readme"
 }

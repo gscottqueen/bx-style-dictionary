@@ -1,19 +1,20 @@
 {
   "name": "bx-tokens",
   "version": "0.1.0",
-  "description": "\"Bixal Brand Tokens\"",
-  "main": "index.js",
+  "description": "Bixal Brand Tokens",
+  "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gscottqueen/bx-tokens/tree/master/build"
+    "url": "git+https://github.com/gscottqueen/bx-style-dictionary/tree/master/bx-tokens"
   },
   "keywords": [
     "design",
     "tokens"
   ],
   "author": "G. Scott Queen | Bixal",
-  "license": "ISC"
+  "license": "ISC",
+  "homepage": "https://github.com/gscottqueen/bx-tokens#readme"
 }
