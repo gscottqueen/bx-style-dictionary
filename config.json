@@ -6,7 +6,7 @@
     "css": {
       "transformGroup": "css",
       "prefix": "bx",
-      "buildPath": "build/css/",
+      "buildPath": "bx-tokens/css/",
       "files": [
         {
           "format": "css/variables",
@@ -17,7 +17,7 @@
     "scss": {
       "transformGroup": "scss",
       "prefix": "bx",
-      "buildPath": "build/scss/",
+      "buildPath": "bx-tokens/scss/",
       "files": [{
         "destination": "_bx_variables.scss",
         "format": "scss/variables"
@@ -26,7 +26,7 @@
     "js": {
       "transformGroup": "js",
       "prefix": "bx",
-      "buildPath": "build/js/",
+      "buildPath": "bx-tokens/js/",
       "files": [{
         "destination": "bx_variables.js",
         "format": "javascript/module"
@@ -38,7 +38,7 @@
     },
     "json/asset": {
       "transforms": ["attribute/cti", "name/cti/camel", "asset/base64"],
-      "buildPath": "build/assets/",
+      "buildPath": "bx-tokens/assets/",
       "files": [{
         "destination": "assets.json",
         "format": "json/asset"
@@ -46,7 +46,7 @@
     },
     "assets/copy": {
       "transformGroup": "assets",
-      "buildPath": "build/",
+      "buildPath": "bx-tokens/",
       "actions": ["copy_assets"]
     }
   }
