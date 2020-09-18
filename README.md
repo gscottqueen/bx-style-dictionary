@@ -4,6 +4,11 @@
 
 All of the style properties and assets are in this package. Make any changes to suit your needs. This package has CSS, SCSS, JS ES6 and Module code, as well as Base64 assets.
 
+### Download Package
+```
+npm install bx-tokens --save --save
+```
+
 To get started, run
 ```
 $ npm install
