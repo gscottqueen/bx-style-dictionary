@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 18 Sep 2020 15:47:20 GMT
+ * Generated on Fri, 18 Sep 2020 16:00:38 GMT
  */
 
 export const BxAssetFontOpensansTtf = "assets/fonts/OpenSans-Regular.ttf";
