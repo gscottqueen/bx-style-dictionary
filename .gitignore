@@ -1,6 +1,5 @@
 # node
 node_modules/
-bx-tokens/*
 
 # OS X
 .DS_Store
