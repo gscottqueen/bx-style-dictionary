@@ -9,7 +9,7 @@
     "properties"
   ],
   "scripts": {
-    "build": "style-dictionary build",
+    "build": "node template.js",
     "watch": "npm run build && chokidar  \"properties/**/*.json\" -c \"npm run build\"",
     "clean": "find bx-tokens -type f -not -name 'package.json' -type f -not -name 'README.md' -delete && find bx-tokens -type d  -not -name 'bx-tokens' -exec rm -rf {} +",
     "test": "echo \"Error: no test specified\" && exit 1"
