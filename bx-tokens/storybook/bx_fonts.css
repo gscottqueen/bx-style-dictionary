@@ -1,0 +1,7 @@
+/**
+* @tokens Font Family
+* @presenter FontFamily
+*/
+:root {
+  --bx-font-family-base: assets/fonts/OpenSans-Regular.ttf;
+}
