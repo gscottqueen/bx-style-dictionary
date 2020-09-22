@@ -18,7 +18,7 @@
       "transformGroup": "css",
       "customSectionHeader": {
         "storyTokenName": "Colors",
-        "storyTokenPresenter": "Colors"
+        "storyTokenPresenter": "Color"
       },
       "prefix": "bx",
       "buildPath": "bx-tokens/storybook/",
