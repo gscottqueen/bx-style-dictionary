@@ -1,6 +1,6 @@
 {
-  "asset": {
-    "font": {
+  "font": {
+    "base": {
       "opensans": {
         "ttf"  : { "value": "assets/fonts/OpenSans-Regular.ttf" }
       }
