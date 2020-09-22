@@ -1,9 +1,7 @@
 {
   "font": {
-    "base": {
-      "opensans": {
-        "ttf"  : { "value": "assets/fonts/OpenSans-Regular.ttf" }
-      }
+    "opensans": {
+      "ttf"  : { "value": "assets/fonts/OpenSans-Regular.ttf" }
     }
   }
 }
